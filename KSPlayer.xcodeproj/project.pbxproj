@@ -131,6 +131,7 @@
 		5A8512482828429600F6B18A /* Libavformat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Libavformat.xcframework; path = Sources/Libavformat.xcframework; sourceTree = "<group>"; };
 		5A85127C2828454700F6B18A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		5A85127E2828459600F6B18A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5A85129228284BCD00F6B18A /* BuildFFmpegInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildFFmpegInfo.plist; sourceTree = "<group>"; };
 		OBJ_11 /* FFmpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FFmpeg.c; sourceTree = "<group>"; };
 		OBJ_13 /* avcodec_shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avcodec_shim.h; sourceTree = "<group>"; };
 		OBJ_14 /* avdevice_shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avdevice_shim.h; sourceTree = "<group>"; };
@@ -464,6 +465,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* BuildXCFramework.swift */,
+				5A85129228284BCD00F6B18A /* BuildFFmpegInfo.plist */,
 			);
 			name = BuildFFmpeg;
 			path = Sources/BuildFFmpeg;
@@ -1094,7 +1096,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = KSPlayer.xcodeproj/BuildFFmpeg_Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/BuildFFmpeg/BuildFFmpegInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1102,9 +1104,11 @@
 					"@executable_path",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriisamoienko.fork.of.kingslay.BuildFFmpeg;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
@@ -1126,7 +1130,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = KSPlayer.xcodeproj/BuildFFmpeg_Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/BuildFFmpeg/BuildFFmpegInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1134,9 +1138,11 @@
 					"@executable_path",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriisamoienko.fork.of.kingslay.BuildFFmpeg;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
