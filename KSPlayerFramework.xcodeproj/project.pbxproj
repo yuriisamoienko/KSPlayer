@@ -14,7 +14,7 @@
 /* Begin PBXFileReference section */
 		5A85116828281BB200F6B18A /* KSPlayerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSPlayerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A85116B28281BB200F6B18A /* KSPlayerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSPlayerFramework.h; sourceTree = "<group>"; };
-		5A85117228281C3F00F6B18A /* KSPlayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = KSPlayer; path = ../../Development_R5/KSPlayer; sourceTree = "<group>"; };
+		5A85117C28281F1300F6B18A /* KSPlayerFramework */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = KSPlayerFramework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,8 +32,8 @@
 		5A85115E28281BB200F6B18A = {
 			isa = PBXGroup;
 			children = (
-				5A85117228281C3F00F6B18A /* KSPlayer */,
 				5A85116A28281BB200F6B18A /* KSPlayerFramework */,
+				5A85117C28281F1300F6B18A /* KSPlayerFramework */,
 				5A85116928281BB200F6B18A /* Products */,
 				5A85117328281C5A00F6B18A /* Frameworks */,
 			);
