@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		5A85116C28281BB200F6B18A /* KSPlayerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A85116B28281BB200F6B18A /* KSPlayerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A85117528281C5A00F6B18A /* KSPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 5A85117428281C5A00F6B18A /* KSPlayer */; };
+		5A85117F2828212A00F6B18A /* KSPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 5A85117E2828212A00F6B18A /* KSPlayer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A85116828281BB200F6B18A /* KSPlayerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSPlayerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A85116B28281BB200F6B18A /* KSPlayerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSPlayerFramework.h; sourceTree = "<group>"; };
-		5A85117C28281F1300F6B18A /* KSPlayerFramework */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = KSPlayerFramework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +23,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A85117528281C5A00F6B18A /* KSPlayer in Frameworks */,
+				5A85117F2828212A00F6B18A /* KSPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,7 +34,6 @@
 			isa = PBXGroup;
 			children = (
 				5A85116A28281BB200F6B18A /* KSPlayerFramework */,
-				5A85117C28281F1300F6B18A /* KSPlayerFramework */,
 				5A85116928281BB200F6B18A /* Products */,
 				5A85117328281C5A00F6B18A /* Frameworks */,
 			);
@@ -92,6 +92,7 @@
 			name = KSPlayerFramework;
 			packageProductDependencies = (
 				5A85117428281C5A00F6B18A /* KSPlayer */,
+				5A85117E2828212A00F6B18A /* KSPlayer */,
 			);
 			productName = KSPlayerFramework;
 			productReference = 5A85116828281BB200F6B18A /* KSPlayerFramework.framework */;
@@ -120,6 +121,9 @@
 				Base,
 			);
 			mainGroup = 5A85115E28281BB200F6B18A;
+			packageReferences = (
+				5A85117D2828212A00F6B18A /* XCRemoteSwiftPackageReference "KSPlayer" */,
+			);
 			productRefGroup = 5A85116928281BB200F6B18A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -365,9 +369,25 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		5A85117D2828212A00F6B18A /* XCRemoteSwiftPackageReference "KSPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kingslay/KSPlayer.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		5A85117428281C5A00F6B18A /* KSPlayer */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = KSPlayer;
+		};
+		5A85117E2828212A00F6B18A /* KSPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A85117D2828212A00F6B18A /* XCRemoteSwiftPackageReference "KSPlayer" */;
 			productName = KSPlayer;
 		};
 /* End XCSwiftPackageProductDependency section */
