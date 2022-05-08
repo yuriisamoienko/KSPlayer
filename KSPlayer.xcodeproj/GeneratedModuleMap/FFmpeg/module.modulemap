@@ -1,0 +1,4 @@
+module FFmpeg {
+    umbrella "/Volumes/SSD_R5/Development_R5/KSPlayerFramework/Sources/FFmpeg/include"
+    export *
+}

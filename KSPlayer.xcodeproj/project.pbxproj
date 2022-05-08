@@ -1,0 +1,1209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"ksplayerframework::KSPlayerPackageTests::ProductTarget" /* KSPlayerPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_166 /* Build configuration list for PBXAggregateTarget "KSPlayerPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_169 /* PBXTargetDependency */,
+			);
+			name = KSPlayerPackageTests;
+			productName = KSPlayerPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5A85127D2828456400F6B18A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A85127C2828454700F6B18A /* libxml2.tbd */; };
+		5A85127F2828459D00F6B18A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A85127E2828459600F6B18A /* libz.tbd */; };
+		5A8512802828482400F6B18A /* Libssl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8512472828429600F6B18A /* Libssl.xcframework */; };
+		5A8512832828483F00F6B18A /* Libavcodec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8512452828429600F6B18A /* Libavcodec.xcframework */; };
+		5A8512852828483F00F6B18A /* Libavfilter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8512462828429600F6B18A /* Libavfilter.xcframework */; };
+		5A8512872828483F00F6B18A /* Libavformat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8512482828429600F6B18A /* Libavformat.xcframework */; };
+		5A8512892828484000F6B18A /* Libavutil.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8512422828429600F6B18A /* Libavutil.xcframework */; };
+		5A85128B2828484000F6B18A /* Libcrypto.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8512412828429600F6B18A /* Libcrypto.xcframework */; };
+		5A85128D2828484000F6B18A /* Libswresample.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8512432828429600F6B18A /* Libswresample.xcframework */; };
+		5A85128F2828484000F6B18A /* Libswscale.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8512442828429600F6B18A /* Libswscale.xcframework */; };
+		OBJ_100 /* BuildXCFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BuildXCFramework.swift */; };
+		OBJ_107 /* FFmpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* FFmpeg.c */; };
+		OBJ_114 /* KSAVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* KSAVPlayer.swift */; };
+		OBJ_115 /* KSPlayerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* KSPlayerLayer.swift */; };
+		OBJ_116 /* PlayerDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* PlayerDefines.swift */; };
+		OBJ_117 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AudioPlayerView.swift */; };
+		OBJ_118 /* AppKitExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* AppKitExtend.swift */; };
+		OBJ_119 /* KSPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* KSPlayerItem.swift */; };
+		OBJ_120 /* PlayerToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* PlayerToolBar.swift */; };
+		OBJ_121 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* PlayerView.swift */; };
+		OBJ_122 /* UIKitExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* UIKitExtend.swift */; };
+		OBJ_123 /* UXKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* UXKit.swift */; };
+		OBJ_124 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Utility.swift */; };
+		OBJ_125 /* AudioEnginePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* AudioEnginePlayer.swift */; };
+		OBJ_126 /* CircularBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* CircularBuffer.swift */; };
+		OBJ_127 /* EmbedDataSouce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* EmbedDataSouce.swift */; };
+		OBJ_128 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Filter.swift */; };
+		OBJ_129 /* KSMEPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* KSMEPlayer.swift */; };
+		OBJ_130 /* MEPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* MEPlayerItem.swift */; };
+		OBJ_131 /* MEPlayerItemTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* MEPlayerItemTrack.swift */; };
+		OBJ_132 /* MetalPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* MetalPlayView.swift */; };
+		OBJ_133 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Model.swift */; };
+		OBJ_134 /* ObjectPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* ObjectPool.swift */; };
+		OBJ_135 /* Resample.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Resample.swift */; };
+		OBJ_136 /* SoftwareDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* SoftwareDecode.swift */; };
+		OBJ_137 /* SubtitleDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* SubtitleDecode.swift */; };
+		OBJ_138 /* BufferProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* BufferProtocol.swift */; };
+		OBJ_139 /* DisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* DisplayModel.swift */; };
+		OBJ_140 /* MetalRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* MetalRender.swift */; };
+		OBJ_141 /* MotionSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* MotionSensor.swift */; };
+		OBJ_142 /* Transforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Transforms.swift */; };
+		OBJ_143 /* KSParseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* KSParseProtocol.swift */; };
+		OBJ_144 /* KSSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* KSSubtitle.swift */; };
+		OBJ_145 /* SubtitleDataSouce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* SubtitleDataSouce.swift */; };
+		OBJ_146 /* KSVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* KSVideoPlayer.swift */; };
+		OBJ_147 /* BrightnessVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* BrightnessVolume.swift */; };
+		OBJ_148 /* IOSVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* IOSVideoPlayerView.swift */; };
+		OBJ_149 /* KSSubtitleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* KSSubtitleController.swift */; };
+		OBJ_150 /* KSSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* KSSubtitleView.swift */; };
+		OBJ_151 /* MacVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* MacVideoPlayerView.swift */; };
+		OBJ_152 /* PlayerFullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* PlayerFullScreenViewController.swift */; };
+		OBJ_153 /* PlayerTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* PlayerTransitionAnimator.swift */; };
+		OBJ_154 /* SeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* SeekView.swift */; };
+		OBJ_155 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* VideoPlayerView.swift */; };
+		OBJ_157 /* FFmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ksplayerframework::FFmpeg::Product" /* FFmpeg.framework */; };
+		OBJ_164 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_175 /* AudioPlayerViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* AudioPlayerViewTest.swift */; };
+		OBJ_176 /* FormatContextTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* FormatContextTest.swift */; };
+		OBJ_177 /* KSAVPlayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* KSAVPlayerTest.swift */; };
+		OBJ_178 /* KSMEPlayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* KSMEPlayerTest.swift */; };
+		OBJ_179 /* KSPlayerLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* KSPlayerLayerTest.swift */; };
+		OBJ_180 /* PlayerControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* PlayerControllerTest.swift */; };
+		OBJ_181 /* VideoPlayerControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* VideoPlayerControllerTest.swift */; };
+		OBJ_182 /* VideoPlayerViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* VideoPlayerViewTest.swift */; };
+		OBJ_184 /* KSPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ksplayerframework::KSPlayer::Product" /* KSPlayer.framework */; };
+		OBJ_185 /* FFmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ksplayerframework::FFmpeg::Product" /* FFmpeg.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A85123C2828427B00F6B18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ksplayerframework::FFmpeg";
+			remoteInfo = FFmpeg;
+		};
+		5A85123D2828427B00F6B18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ksplayerframework::KSPlayer";
+			remoteInfo = KSPlayer;
+		};
+		5A85123E2828427B00F6B18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ksplayerframework::FFmpeg";
+			remoteInfo = FFmpeg;
+		};
+		5A85123F2828427B00F6B18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ksplayerframework::KSPlayerTests";
+			remoteInfo = KSPlayerTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A8512412828429600F6B18A /* Libcrypto.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Libcrypto.xcframework; path = Sources/Libcrypto.xcframework; sourceTree = "<group>"; };
+		5A8512422828429600F6B18A /* Libavutil.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Libavutil.xcframework; path = Sources/Libavutil.xcframework; sourceTree = "<group>"; };
+		5A8512432828429600F6B18A /* Libswresample.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Libswresample.xcframework; path = Sources/Libswresample.xcframework; sourceTree = "<group>"; };
+		5A8512442828429600F6B18A /* Libswscale.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Libswscale.xcframework; path = Sources/Libswscale.xcframework; sourceTree = "<group>"; };
+		5A8512452828429600F6B18A /* Libavcodec.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Libavcodec.xcframework; path = Sources/Libavcodec.xcframework; sourceTree = "<group>"; };
+		5A8512462828429600F6B18A /* Libavfilter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Libavfilter.xcframework; path = Sources/Libavfilter.xcframework; sourceTree = "<group>"; };
+		5A8512472828429600F6B18A /* Libssl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Libssl.xcframework; path = Sources/Libssl.xcframework; sourceTree = "<group>"; };
+		5A8512482828429600F6B18A /* Libavformat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Libavformat.xcframework; path = Sources/Libavformat.xcframework; sourceTree = "<group>"; };
+		5A85127C2828454700F6B18A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		5A85127E2828459600F6B18A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		OBJ_11 /* FFmpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FFmpeg.c; sourceTree = "<group>"; };
+		OBJ_13 /* avcodec_shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avcodec_shim.h; sourceTree = "<group>"; };
+		OBJ_14 /* avdevice_shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avdevice_shim.h; sourceTree = "<group>"; };
+		OBJ_15 /* avfilter_shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avfilter_shim.h; sourceTree = "<group>"; };
+		OBJ_16 /* avformat_shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avformat_shim.h; sourceTree = "<group>"; };
+		OBJ_17 /* avutil_shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avutil_shim.h; sourceTree = "<group>"; };
+		OBJ_18 /* swresample_shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swresample_shim.h; sourceTree = "<group>"; };
+		OBJ_19 /* swscale_shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swscale_shim.h; sourceTree = "<group>"; };
+		OBJ_20 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Volumes/SSD_R5/Development_R5/KSPlayerFramework/KSPlayer.xcodeproj/GeneratedModuleMap/FFmpeg/module.modulemap; sourceTree = "<group>"; };
+		OBJ_23 /* KSAVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSAVPlayer.swift; sourceTree = "<group>"; };
+		OBJ_24 /* KSPlayerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSPlayerLayer.swift; sourceTree = "<group>"; };
+		OBJ_25 /* PlayerDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDefines.swift; sourceTree = "<group>"; };
+		OBJ_27 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		OBJ_29 /* AppKitExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKitExtend.swift; sourceTree = "<group>"; };
+		OBJ_30 /* KSPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSPlayerItem.swift; sourceTree = "<group>"; };
+		OBJ_31 /* PlayerToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerToolBar.swift; sourceTree = "<group>"; };
+		OBJ_32 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		OBJ_33 /* UIKitExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtend.swift; sourceTree = "<group>"; };
+		OBJ_34 /* UXKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UXKit.swift; sourceTree = "<group>"; };
+		OBJ_35 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		OBJ_37 /* AudioEnginePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEnginePlayer.swift; sourceTree = "<group>"; };
+		OBJ_38 /* CircularBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularBuffer.swift; sourceTree = "<group>"; };
+		OBJ_39 /* EmbedDataSouce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedDataSouce.swift; sourceTree = "<group>"; };
+		OBJ_40 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		OBJ_41 /* KSMEPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSMEPlayer.swift; sourceTree = "<group>"; };
+		OBJ_42 /* MEPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEPlayerItem.swift; sourceTree = "<group>"; };
+		OBJ_43 /* MEPlayerItemTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEPlayerItemTrack.swift; sourceTree = "<group>"; };
+		OBJ_44 /* MetalPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalPlayView.swift; sourceTree = "<group>"; };
+		OBJ_45 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		OBJ_46 /* ObjectPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectPool.swift; sourceTree = "<group>"; };
+		OBJ_47 /* Resample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resample.swift; sourceTree = "<group>"; };
+		OBJ_48 /* SoftwareDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareDecode.swift; sourceTree = "<group>"; };
+		OBJ_49 /* SubtitleDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleDecode.swift; sourceTree = "<group>"; };
+		OBJ_51 /* BufferProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferProtocol.swift; sourceTree = "<group>"; };
+		OBJ_52 /* DisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayModel.swift; sourceTree = "<group>"; };
+		OBJ_53 /* MetalRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRender.swift; sourceTree = "<group>"; };
+		OBJ_54 /* MotionSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensor.swift; sourceTree = "<group>"; };
+		OBJ_55 /* Transforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transforms.swift; sourceTree = "<group>"; };
+		OBJ_57 /* KSParseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSParseProtocol.swift; sourceTree = "<group>"; };
+		OBJ_58 /* KSSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSubtitle.swift; sourceTree = "<group>"; };
+		OBJ_59 /* SubtitleDataSouce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleDataSouce.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_61 /* KSVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSVideoPlayer.swift; sourceTree = "<group>"; };
+		OBJ_63 /* BrightnessVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessVolume.swift; sourceTree = "<group>"; };
+		OBJ_64 /* IOSVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSVideoPlayerView.swift; sourceTree = "<group>"; };
+		OBJ_65 /* KSSubtitleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSubtitleController.swift; sourceTree = "<group>"; };
+		OBJ_66 /* KSSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSubtitleView.swift; sourceTree = "<group>"; };
+		OBJ_67 /* MacVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacVideoPlayerView.swift; sourceTree = "<group>"; };
+		OBJ_68 /* PlayerFullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFullScreenViewController.swift; sourceTree = "<group>"; };
+		OBJ_69 /* PlayerTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTransitionAnimator.swift; sourceTree = "<group>"; };
+		OBJ_70 /* SeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekView.swift; sourceTree = "<group>"; };
+		OBJ_71 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		OBJ_74 /* AudioPlayerViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewTest.swift; sourceTree = "<group>"; };
+		OBJ_75 /* FormatContextTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatContextTest.swift; sourceTree = "<group>"; };
+		OBJ_76 /* KSAVPlayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSAVPlayerTest.swift; sourceTree = "<group>"; };
+		OBJ_77 /* KSMEPlayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSMEPlayerTest.swift; sourceTree = "<group>"; };
+		OBJ_78 /* KSPlayerLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSPlayerLayerTest.swift; sourceTree = "<group>"; };
+		OBJ_79 /* PlayerControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControllerTest.swift; sourceTree = "<group>"; };
+		OBJ_80 /* VideoPlayerControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerControllerTest.swift; sourceTree = "<group>"; };
+		OBJ_81 /* VideoPlayerViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewTest.swift; sourceTree = "<group>"; };
+		OBJ_87 /* Demo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Demo; sourceTree = SOURCE_ROOT; };
+		OBJ_88 /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documents; sourceTree = SOURCE_ROOT; };
+		OBJ_89 /* FFmpeg.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FFmpeg.podspec; sourceTree = "<group>"; };
+		OBJ_9 /* BuildXCFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildXCFramework.swift; sourceTree = "<group>"; };
+		OBJ_90 /* KSPlayer.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KSPlayer.podspec; sourceTree = "<group>"; };
+		OBJ_91 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_92 /* OpenSSL.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OpenSSL.podspec; sourceTree = "<group>"; };
+		OBJ_93 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_94 /* README_CN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_CN.md; sourceTree = "<group>"; };
+		"ksplayerframework::BuildFFmpeg::Product" /* BuildFFmpeg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BuildFFmpeg; sourceTree = BUILT_PRODUCTS_DIR; };
+		"ksplayerframework::FFmpeg::Product" /* FFmpeg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FFmpeg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"ksplayerframework::KSPlayer::Product" /* KSPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KSPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"ksplayerframework::KSPlayerTests::Product" /* KSPlayerTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = KSPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				5A85128D2828484000F6B18A /* Libswresample.xcframework in Frameworks */,
+				5A8512892828484000F6B18A /* Libavutil.xcframework in Frameworks */,
+				OBJ_157 /* FFmpeg.framework in Frameworks */,
+				5A85127F2828459D00F6B18A /* libz.tbd in Frameworks */,
+				5A8512832828483F00F6B18A /* Libavcodec.xcframework in Frameworks */,
+				5A8512802828482400F6B18A /* Libssl.xcframework in Frameworks */,
+				5A8512852828483F00F6B18A /* Libavfilter.xcframework in Frameworks */,
+				5A8512872828483F00F6B18A /* Libavformat.xcframework in Frameworks */,
+				5A85127D2828456400F6B18A /* libxml2.tbd in Frameworks */,
+				5A85128B2828484000F6B18A /* Libcrypto.xcframework in Frameworks */,
+				5A85128F2828484000F6B18A /* Libswscale.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_184 /* KSPlayer.framework in Frameworks */,
+				OBJ_185 /* FFmpeg.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A8512402828429600F6B18A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A85127E2828459600F6B18A /* libz.tbd */,
+				5A85127C2828454700F6B18A /* libxml2.tbd */,
+				5A8512452828429600F6B18A /* Libavcodec.xcframework */,
+				5A8512462828429600F6B18A /* Libavfilter.xcframework */,
+				5A8512482828429600F6B18A /* Libavformat.xcframework */,
+				5A8512422828429600F6B18A /* Libavutil.xcframework */,
+				5A8512412828429600F6B18A /* Libcrypto.xcframework */,
+				5A8512472828429600F6B18A /* Libssl.xcframework */,
+				5A8512432828429600F6B18A /* Libswresample.xcframework */,
+				5A8512442828429600F6B18A /* Libswscale.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* FFmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* FFmpeg.c */,
+				OBJ_12 /* include */,
+			);
+			name = FFmpeg;
+			path = Sources/FFmpeg;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* avcodec_shim.h */,
+				OBJ_14 /* avdevice_shim.h */,
+				OBJ_15 /* avfilter_shim.h */,
+				OBJ_16 /* avformat_shim.h */,
+				OBJ_17 /* avutil_shim.h */,
+				OBJ_18 /* swresample_shim.h */,
+				OBJ_19 /* swscale_shim.h */,
+				OBJ_20 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_21 /* KSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* AVPlayer */,
+				OBJ_26 /* Audio */,
+				OBJ_28 /* Core */,
+				OBJ_36 /* MEPlayer */,
+				OBJ_50 /* Metal */,
+				OBJ_56 /* Subtitle */,
+				OBJ_60 /* SwiftUI */,
+				OBJ_62 /* Video */,
+			);
+			name = KSPlayer;
+			path = Sources/KSPlayer;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_22 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* KSAVPlayer.swift */,
+				OBJ_24 /* KSPlayerLayer.swift */,
+				OBJ_25 /* PlayerDefines.swift */,
+			);
+			path = AVPlayer;
+			sourceTree = "<group>";
+		};
+		OBJ_26 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* AudioPlayerView.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		OBJ_28 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* AppKitExtend.swift */,
+				OBJ_30 /* KSPlayerItem.swift */,
+				OBJ_31 /* PlayerToolBar.swift */,
+				OBJ_32 /* PlayerView.swift */,
+				OBJ_33 /* UIKitExtend.swift */,
+				OBJ_34 /* UXKit.swift */,
+				OBJ_35 /* Utility.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		OBJ_36 /* MEPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_37 /* AudioEnginePlayer.swift */,
+				OBJ_38 /* CircularBuffer.swift */,
+				OBJ_39 /* EmbedDataSouce.swift */,
+				OBJ_40 /* Filter.swift */,
+				OBJ_41 /* KSMEPlayer.swift */,
+				OBJ_42 /* MEPlayerItem.swift */,
+				OBJ_43 /* MEPlayerItemTrack.swift */,
+				OBJ_44 /* MetalPlayView.swift */,
+				OBJ_45 /* Model.swift */,
+				OBJ_46 /* ObjectPool.swift */,
+				OBJ_47 /* Resample.swift */,
+				OBJ_48 /* SoftwareDecode.swift */,
+				OBJ_49 /* SubtitleDecode.swift */,
+			);
+			path = MEPlayer;
+			sourceTree = "<group>";
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_72 /* Tests */,
+				OBJ_82 /* Products */,
+				OBJ_87 /* Demo */,
+				OBJ_88 /* Documents */,
+				OBJ_89 /* FFmpeg.podspec */,
+				OBJ_90 /* KSPlayer.podspec */,
+				OBJ_91 /* LICENSE */,
+				OBJ_92 /* OpenSSL.podspec */,
+				OBJ_93 /* README.md */,
+				OBJ_94 /* README_CN.md */,
+				5A8512402828429600F6B18A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_50 /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_51 /* BufferProtocol.swift */,
+				OBJ_52 /* DisplayModel.swift */,
+				OBJ_53 /* MetalRender.swift */,
+				OBJ_54 /* MotionSensor.swift */,
+				OBJ_55 /* Transforms.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		OBJ_56 /* Subtitle */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_57 /* KSParseProtocol.swift */,
+				OBJ_58 /* KSSubtitle.swift */,
+				OBJ_59 /* SubtitleDataSouce.swift */,
+			);
+			path = Subtitle;
+			sourceTree = "<group>";
+		};
+		OBJ_60 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_61 /* KSVideoPlayer.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		OBJ_62 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_63 /* BrightnessVolume.swift */,
+				OBJ_64 /* IOSVideoPlayerView.swift */,
+				OBJ_65 /* KSSubtitleController.swift */,
+				OBJ_66 /* KSSubtitleView.swift */,
+				OBJ_67 /* MacVideoPlayerView.swift */,
+				OBJ_68 /* PlayerFullScreenViewController.swift */,
+				OBJ_69 /* PlayerTransitionAnimator.swift */,
+				OBJ_70 /* SeekView.swift */,
+				OBJ_71 /* VideoPlayerView.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* BuildFFmpeg */,
+				OBJ_10 /* FFmpeg */,
+				OBJ_21 /* KSPlayer */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_72 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_73 /* KSPlayerTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_73 /* KSPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_74 /* AudioPlayerViewTest.swift */,
+				OBJ_75 /* FormatContextTest.swift */,
+				OBJ_76 /* KSAVPlayerTest.swift */,
+				OBJ_77 /* KSMEPlayerTest.swift */,
+				OBJ_78 /* KSPlayerLayerTest.swift */,
+				OBJ_79 /* PlayerControllerTest.swift */,
+				OBJ_80 /* VideoPlayerControllerTest.swift */,
+				OBJ_81 /* VideoPlayerViewTest.swift */,
+			);
+			name = KSPlayerTests;
+			path = Tests/KSPlayerTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* BuildFFmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* BuildXCFramework.swift */,
+			);
+			name = BuildFFmpeg;
+			path = Sources/BuildFFmpeg;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"ksplayerframework::BuildFFmpeg::Product" /* BuildFFmpeg */,
+				"ksplayerframework::FFmpeg::Product" /* FFmpeg.framework */,
+				"ksplayerframework::KSPlayer::Product" /* KSPlayer.framework */,
+				"ksplayerframework::KSPlayerTests::Product" /* KSPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"ksplayerframework::BuildFFmpeg" /* BuildFFmpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_96 /* Build configuration list for PBXNativeTarget "BuildFFmpeg" */;
+			buildPhases = (
+				OBJ_99 /* Sources */,
+				OBJ_101 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuildFFmpeg;
+			productName = BuildFFmpeg;
+			productReference = "ksplayerframework::BuildFFmpeg::Product" /* BuildFFmpeg */;
+			productType = "com.apple.product-type.tool";
+		};
+		"ksplayerframework::FFmpeg" /* FFmpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_103 /* Build configuration list for PBXNativeTarget "FFmpeg" */;
+			buildPhases = (
+				OBJ_106 /* Sources */,
+				OBJ_108 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFmpeg;
+			productName = FFmpeg;
+			productReference = "ksplayerframework::FFmpeg::Product" /* FFmpeg.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"ksplayerframework::KSPlayer" /* KSPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_110 /* Build configuration list for PBXNativeTarget "KSPlayer" */;
+			buildPhases = (
+				OBJ_113 /* Sources */,
+				OBJ_156 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_158 /* PBXTargetDependency */,
+			);
+			name = KSPlayer;
+			productName = KSPlayer;
+			productReference = "ksplayerframework::KSPlayer::Product" /* KSPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"ksplayerframework::KSPlayerTests" /* KSPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_171 /* Build configuration list for PBXNativeTarget "KSPlayerTests" */;
+			buildPhases = (
+				OBJ_174 /* Sources */,
+				OBJ_183 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_186 /* PBXTargetDependency */,
+				OBJ_187 /* PBXTargetDependency */,
+			);
+			name = KSPlayerTests;
+			productName = KSPlayerTests;
+			productReference = "ksplayerframework::KSPlayerTests::Product" /* KSPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"ksplayerframework::SwiftPMPackageDescription" /* KSPlayerPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_160 /* Build configuration list for PBXNativeTarget "KSPlayerPackageDescription" */;
+			buildPhases = (
+				OBJ_163 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSPlayerPackageDescription;
+			productName = KSPlayerPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "KSPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"ksplayerframework::BuildFFmpeg" /* BuildFFmpeg */,
+				"ksplayerframework::FFmpeg" /* FFmpeg */,
+				"ksplayerframework::KSPlayer" /* KSPlayer */,
+				"ksplayerframework::SwiftPMPackageDescription" /* KSPlayerPackageDescription */,
+				"ksplayerframework::KSPlayerPackageTests::ProductTarget" /* KSPlayerPackageTests */,
+				"ksplayerframework::KSPlayerTests" /* KSPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_107 /* FFmpeg.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_114 /* KSAVPlayer.swift in Sources */,
+				OBJ_115 /* KSPlayerLayer.swift in Sources */,
+				OBJ_116 /* PlayerDefines.swift in Sources */,
+				OBJ_117 /* AudioPlayerView.swift in Sources */,
+				OBJ_118 /* AppKitExtend.swift in Sources */,
+				OBJ_119 /* KSPlayerItem.swift in Sources */,
+				OBJ_120 /* PlayerToolBar.swift in Sources */,
+				OBJ_121 /* PlayerView.swift in Sources */,
+				OBJ_122 /* UIKitExtend.swift in Sources */,
+				OBJ_123 /* UXKit.swift in Sources */,
+				OBJ_124 /* Utility.swift in Sources */,
+				OBJ_125 /* AudioEnginePlayer.swift in Sources */,
+				OBJ_126 /* CircularBuffer.swift in Sources */,
+				OBJ_127 /* EmbedDataSouce.swift in Sources */,
+				OBJ_128 /* Filter.swift in Sources */,
+				OBJ_129 /* KSMEPlayer.swift in Sources */,
+				OBJ_130 /* MEPlayerItem.swift in Sources */,
+				OBJ_131 /* MEPlayerItemTrack.swift in Sources */,
+				OBJ_132 /* MetalPlayView.swift in Sources */,
+				OBJ_133 /* Model.swift in Sources */,
+				OBJ_134 /* ObjectPool.swift in Sources */,
+				OBJ_135 /* Resample.swift in Sources */,
+				OBJ_136 /* SoftwareDecode.swift in Sources */,
+				OBJ_137 /* SubtitleDecode.swift in Sources */,
+				OBJ_138 /* BufferProtocol.swift in Sources */,
+				OBJ_139 /* DisplayModel.swift in Sources */,
+				OBJ_140 /* MetalRender.swift in Sources */,
+				OBJ_141 /* MotionSensor.swift in Sources */,
+				OBJ_142 /* Transforms.swift in Sources */,
+				OBJ_143 /* KSParseProtocol.swift in Sources */,
+				OBJ_144 /* KSSubtitle.swift in Sources */,
+				OBJ_145 /* SubtitleDataSouce.swift in Sources */,
+				OBJ_146 /* KSVideoPlayer.swift in Sources */,
+				OBJ_147 /* BrightnessVolume.swift in Sources */,
+				OBJ_148 /* IOSVideoPlayerView.swift in Sources */,
+				OBJ_149 /* KSSubtitleController.swift in Sources */,
+				OBJ_150 /* KSSubtitleView.swift in Sources */,
+				OBJ_151 /* MacVideoPlayerView.swift in Sources */,
+				OBJ_152 /* PlayerFullScreenViewController.swift in Sources */,
+				OBJ_153 /* PlayerTransitionAnimator.swift in Sources */,
+				OBJ_154 /* SeekView.swift in Sources */,
+				OBJ_155 /* VideoPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_164 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_175 /* AudioPlayerViewTest.swift in Sources */,
+				OBJ_176 /* FormatContextTest.swift in Sources */,
+				OBJ_177 /* KSAVPlayerTest.swift in Sources */,
+				OBJ_178 /* KSMEPlayerTest.swift in Sources */,
+				OBJ_179 /* KSPlayerLayerTest.swift in Sources */,
+				OBJ_180 /* PlayerControllerTest.swift in Sources */,
+				OBJ_181 /* VideoPlayerControllerTest.swift in Sources */,
+				OBJ_182 /* VideoPlayerViewTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_100 /* BuildXCFramework.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ksplayerframework::FFmpeg" /* FFmpeg */;
+			targetProxy = 5A85123C2828427B00F6B18A /* PBXContainerItemProxy */;
+		};
+		OBJ_169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ksplayerframework::KSPlayerTests" /* KSPlayerTests */;
+			targetProxy = 5A85123F2828427B00F6B18A /* PBXContainerItemProxy */;
+		};
+		OBJ_186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ksplayerframework::KSPlayer" /* KSPlayer */;
+			targetProxy = 5A85123D2828427B00F6B18A /* PBXContainerItemProxy */;
+		};
+		OBJ_187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ksplayerframework::FFmpeg" /* FFmpeg */;
+			targetProxy = 5A85123E2828427B00F6B18A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/FFmpeg/include",
+				);
+				INFOPLIST_FILE = KSPlayer.xcodeproj/FFmpeg_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lbz2",
+					"-liconv",
+					"-lxml2",
+					"-lz",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FFmpeg;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = FFmpeg;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/FFmpeg/include",
+				);
+				INFOPLIST_FILE = KSPlayer.xcodeproj/FFmpeg_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lbz2",
+					"-liconv",
+					"-lxml2",
+					"-lz",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FFmpeg;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = FFmpeg;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN4ZAR6A43;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/FFmpeg/include",
+					"$(SRCROOT)/KSPlayer.xcodeproj/GeneratedModuleMap/FFmpeg",
+				);
+				INFOPLIST_FILE = KSPlayer.xcodeproj/KSPlayer_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreImage,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					MetalKit,
+					"-framework",
+					Security,
+					"-framework",
+					VideoToolbox,
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/KSPlayer.xcodeproj/GeneratedModuleMap/FFmpeg/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriisamoienko.fork.of.kingslay.KSPlayer;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = KSPlayer;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN4ZAR6A43;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/FFmpeg/include",
+					"$(SRCROOT)/KSPlayer.xcodeproj/GeneratedModuleMap/FFmpeg",
+				);
+				INFOPLIST_FILE = KSPlayer.xcodeproj/KSPlayer_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreImage,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					MetalKit,
+					"-framework",
+					Security,
+					"-framework",
+					VideoToolbox,
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/KSPlayer.xcodeproj/GeneratedModuleMap/FFmpeg/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuriisamoienko.fork.of.kingslay.KSPlayer;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = KSPlayer;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/FFmpeg/include",
+					"$(SRCROOT)/KSPlayer.xcodeproj/GeneratedModuleMap/FFmpeg",
+				);
+				INFOPLIST_FILE = KSPlayer.xcodeproj/KSPlayerTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/KSPlayer.xcodeproj/GeneratedModuleMap/FFmpeg/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = KSPlayerTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/FFmpeg/include",
+					"$(SRCROOT)/KSPlayer.xcodeproj/GeneratedModuleMap/FFmpeg",
+				);
+				INFOPLIST_FILE = KSPlayer.xcodeproj/KSPlayerTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/KSPlayer.xcodeproj/GeneratedModuleMap/FFmpeg/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = KSPlayerTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN4ZAR6A43;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KSPlayer.xcodeproj/BuildFFmpeg_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+					"@executable_path",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = BuildFFmpeg;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QN4ZAR6A43;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KSPlayer.xcodeproj/BuildFFmpeg_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+					"@executable_path",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = BuildFFmpeg;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_103 /* Build configuration list for PBXNativeTarget "FFmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_104 /* Debug */,
+				OBJ_105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_110 /* Build configuration list for PBXNativeTarget "KSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_111 /* Debug */,
+				OBJ_112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_160 /* Build configuration list for PBXNativeTarget "KSPlayerPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_161 /* Debug */,
+				OBJ_162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_166 /* Build configuration list for PBXAggregateTarget "KSPlayerPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_167 /* Debug */,
+				OBJ_168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_171 /* Build configuration list for PBXNativeTarget "KSPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_172 /* Debug */,
+				OBJ_173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "KSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_96 /* Build configuration list for PBXNativeTarget "BuildFFmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_97 /* Debug */,
+				OBJ_98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
