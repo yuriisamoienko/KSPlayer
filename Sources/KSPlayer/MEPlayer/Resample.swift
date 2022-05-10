@@ -8,9 +8,9 @@
 import AVFoundation
 import CoreGraphics
 import CoreMedia
-import Libavcodec
-import Libswresample
-import Libswscale
+import avcodec
+import swresample
+import swscale
 import VideoToolbox
 
 protocol Swresample {

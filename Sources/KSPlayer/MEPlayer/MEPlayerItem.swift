@@ -6,7 +6,7 @@
 //
 
 import AVFoundation
-import Libavformat
+import avformat
 import VideoToolbox
 
 final class MEPlayerItem {

@@ -6,8 +6,9 @@
 //
 
 import Foundation
-import Libavfilter
-import Libavutil
+import avfilter
+import avutil
+
 class MEFilter {
     private var graph: UnsafeMutablePointer<AVFilterGraph>?
     private var bufferContext: UnsafeMutablePointer<AVFilterContext>?

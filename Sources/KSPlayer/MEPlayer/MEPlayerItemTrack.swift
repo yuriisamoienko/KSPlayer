@@ -6,7 +6,7 @@
 //
 import AVFoundation
 import CoreMedia
-import Libavformat
+import avformat
 
 struct AssetTrack: MediaPlayerTrack, CustomStringConvertible {
     let trackID: Int32

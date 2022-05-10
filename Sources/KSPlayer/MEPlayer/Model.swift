@@ -8,7 +8,7 @@
 import AVFoundation
 import CoreMedia
 import FFmpeg
-import Libavcodec
+import avcodec
 
 // MARK: enum
 

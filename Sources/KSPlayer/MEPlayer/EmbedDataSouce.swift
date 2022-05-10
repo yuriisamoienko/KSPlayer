@@ -5,8 +5,9 @@
 //  Created by kintan on 2018/8/7.
 //
 import Foundation
-import Libavcodec
-import Libavutil
+import avcodec
+import avutil
+
 public class EmbedSubtitleInfo: SubtitleInfo {
     let subtitle: FFPlayerItemTrack<SubtitleFrame>
     private let isImageSubtitle: Bool

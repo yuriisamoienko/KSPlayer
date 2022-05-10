@@ -7,7 +7,7 @@
 
 import AVFoundation
 import Foundation
-import Libavcodec
+import avcodec
 
 class SoftwareDecode: DecodeProtocol {
     private weak var delegate: DecodeResultDelegate?
